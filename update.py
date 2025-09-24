@@ -15,7 +15,7 @@ basicConfig(
 )
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://github.com/the-lx0980/web-app")
+UPSTREAM_REPO = getenv('UPSTREAM_REPO', "https://github.com/themx0980/web-app-V2")
 UPSTREAM_BRANCH = getenv('UPSTREAM_BRANCH', "main")
 
 if UPSTREAM_REPO is not None:
